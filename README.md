@@ -7,8 +7,11 @@ Contains the parameters and initialises the population rate model with the param
 ## icck-ipv.py 
 Performs the simulations of the population rate model and creates visualisations for the theta and gamma frequency and power with changing $i_{cck}$ and $i_{pv}$ parameters. 
 
+## ipyr_wpyrpyr.py, wbicpyr_wpyrbic.py etc
+Performs the same function as the above script for the variation of the corresponding parameters.
+
 ## lfp_spectrogram.py
-Plots the LFP trace for simulations of the Full Scale Model as well as computes the Welch's Periodogram of the LFP. It also contains the option to filter the LFP within the theta or gamma frequency band. The same code is used to compute the power for the visualisations of the theta or gamma power for the simulations of the PRM
+Plots the LFP trace for simulations of the Full Scale Model as well as computes the Welch's Periodogram of the LFP. It also contains the option to filter the LFP within the theta or gamma frequency band. The same code is used to compute the power for the visualisations of the theta or gamma power for the simulations of the PRM. The raw data for the LFP trace is contained in the file named _lfp.control.dat_
 
 ## spikeraster.py
-Plots the spike raster that displays the spiking for each cell, grouped by cell type, for simulations of the FSM. 
+Plots the spike raster that displays the spiking for each cell, grouped by cell type, for simulations of the FSM.
